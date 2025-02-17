@@ -48,14 +48,14 @@ public class ProductStoreTests {
     // Test data
     private static ArrayList<Product> getProducts() {
         Product expProduct1 = new Product();
-        expProduct1.setProductId(1);
-        expProduct1.setProductName("Samsung galaxy s6");
-        expProduct1.setProductPrice(360);
+        expProduct1.setProductId(2);
+        expProduct1.setProductName("Nokia lumia 1520");
+        expProduct1.setProductPrice(820);
 
         Product expProduct2 = new Product();
-        expProduct2.setProductId(5);
-        expProduct2.setProductName("Iphone 6 32gb");
-        expProduct2.setProductPrice(790);
+        expProduct2.setProductId(7);
+        expProduct2.setProductName("HTC One M9");
+        expProduct2.setProductPrice(700);
         ArrayList<Product> productList = new ArrayList<>();
         productList.add(expProduct1);
         productList.add(expProduct2);
